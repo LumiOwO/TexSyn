@@ -28,15 +28,24 @@
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ui\TexSyn.cpp">
+    <ClCompile Include="src\texture\texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\texture\texture.cpp">
+    <ClCompile Include="src\texture\pyramid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texture\TSVQ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\TexSyn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="src\ui\TexSyn.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\texture\texture.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
@@ -51,7 +60,10 @@
     </QtUic>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\texture\texture.h">
+    <ClInclude Include="src\texture\pyramid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture\TSVQ.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
